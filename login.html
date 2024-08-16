@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">ss
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: rgb(51, 50, 51);
+
+    }
+
+    .img {
+        background-color: grey;
+    }
+
+    .container {
+        height: 90%;
+        width: 60%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .imgbox {
+        width: 50%;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .imgbox img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .formbox {
+        width: 50%;
+        float: left;
+        background: white;
+        height: 100%;
+        padding: 8%;
+
+    }
+
+    .form {
+        margin-top: 20px;
+    }
+
+    .input {
+        padding: 8px;
+        margin: 10px;
+        height: 15px;
+        width: 200px;
+        background: #edebec;
+        border: none;
+    }
+
+    .label {
+        margin-left: 10px;
+        font-size: 13px;
+        display: block;
+    }
+
+    .check {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+
+    }
+
+    .box {
+        height: 10px;
+        width: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .h2 {
+        font-family: system-ui;
+    }
+
+    .h4 {
+        color: gray;
+        font-weight: normal;
+    }
+
+    input.box-inp {
+        width: 270px;
+        padding: 9px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #email {
+
+        font-family: system-ui ;
+
+    }
+
+    #password {
+        
+        font-family:  system-ui; 
+        
+    }
+
+    button.bt {
+        padding: 10px 41%;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+
+    .bt:hover {
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        border: 1px solid gray;
+    }
+
+    button.btn {
+        padding: 10px 25%;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+    }
+
+    .btn:hover {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        
+    }
+
+    .p {
+        margin-left: 30px;
+        padding: 20px;
+    }
+</style>
+
+
+<body>
+    <div class="container">
+        <div class="formbox">
+            <h2 class="h2">Hello,Welcome to wanderlust community!</h2>
+            <h4 class="h4">Create an account and start exploring!</h4>
+
+            <form class="form">
+                <p id="email">Email</p>
+                <input class="box-inp" type="text" placeholder="Enter your email">
+                <p id="password">Password</p>
+                <input class="box-inp" type="text" placeholder="************">
+                <input  class="box" type="checkbox" id="Remember me">
+                <label class="check" for="Remember me">Remember me</label>
+                <br><button class="bt">Sign In</button><br>
+                <br><button class="btn"><i class="fa-brands fa-google"></i>
+                    Sign In with google</button>
+                <p class="p">Don't have an account?<a href="/index.html"
+                        style="text-decoration: none; color: gray;">  Sign up </a></p>
+
+            </form>
+        </div>
+        <div class="imgbox">
+            <img src="Screenshot (6).png" alt="" srcset="">
+        </div>
+    </div>
+</body>
+
+</html>
